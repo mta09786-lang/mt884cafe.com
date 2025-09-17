@@ -1,0 +1,895 @@
+/*-------------------------------------- Fonts Starts -------------------------------------*/
+/*--------------------------------------- Fonts Ends --------------------------------------*/
+/*------------------------------------- Colors Starts -------------------------------------*/
+/*-------------------------------------- Colors Ends --------------------------------------*/
+/*-------------------------------------- Mixins Starts ------------------------------------*/
+.ex-flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+
+.ex-flex-wrap {
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+.ex-vertical {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.ex-transition {
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+}
+
+.ex-transition-medium {
+    -webkit-transition: all 1.2s ease;
+    -moz-transition: all 1.2s ease;
+    -ms-transition: all 1.2s ease;
+    -o-transition: all 1.2s ease;
+    transition: all 1.2s ease;
+}
+
+.ex-transition-large {
+    -webkit-transition: all 1.8s ease;
+    -moz-transition: all 1.8s ease;
+    -ms-transition: all 1.8s ease;
+    -o-transition: all 1.8s ease;
+    transition: all 1.8s ease;
+}
+
+/*--------------------------------------- Mixins Ends -------------------------------------*/
+/*------------------------------------ Site Wide Starts -----------------------------------*/
+/*------------------------------------- Site Wide Ends ------------------------------------*/
+/*--------------------------------- Header Wrapper Starts ---------------------------------*/
+/*--------------------------------- Header Wrapper Starts ---------------------------------*/
+/*----------------------------------- Navigation Starts -----------------------------------*/
+/*------------------------------------ Navigation Ends ------------------------------------*/
+/*-------------------------------- Content Wrapper Starts ---------------------------------*/
+/*--------------------------------- Content Wrapper Ends ----------------------------------*/
+/*--------------------------------- Footer Wrapper Starts ---------------------------------*/
+/*---------------------------------- Footer Wrapper Ends ----------------------------------*/
+/*----------------------------------- Components Starts -----------------------------------*/
+/*------------------------------------ Components Ends ------------------------------------*/
+/*---------------------------------- Slick Slider Starts ----------------------------------*/
+/*----------------------------------- Slick Slider Ends -----------------------------------*/
+/*-------------------------------------- Modal Starts -------------------------------------*/
+/*--------------------------------------- Modal Ends --------------------------------------*/
+/*------------------------------------ Animation Starts -----------------------------------*/
+/*------------------------------------- Animation Ends ------------------------------------*/
+@media all and (max-width: 1800px) {
+
+    /*------------------------------------ Site Wide Starts -----------------------------------*/
+    body {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 100px;
+    }
+
+    h2 {
+        font-size: 60px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    h6 {
+        font-size: 14px;
+    }
+
+    .custom-container {
+        padding: 60px 140px;
+    }
+
+    .custom-container.small-width-container {
+        max-width: 900px;
+    }
+
+    .section-title {
+        margin-bottom: 50px !important;
+    }
+
+    .section-title h4 {
+        margin-bottom: 12px;
+    }
+
+    .section-title .content {
+        margin-top: 35px;
+    }
+
+    .section-title .action-container {
+        margin-top: 50px;
+    }
+
+    .section-title.has-content {
+        max-width: 450px;
+    }
+
+    /*------------------------------------- Site Wide Ends ------------------------------------*/
+    /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+    #header-wrapper .custom-container {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #header-wrapper .logo-nav-wrapper .logo-container a {
+        width: 90px;
+    }
+
+    #header-wrapper .logo-nav-wrapper .nav-container ul li:not(:last-of-type) {
+        margin-right: 45px;
+    }
+
+    /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+    /*----------------------------------- Navigation Starts -----------------------------------*/
+    /*------------------------------------ Navigation Ends ------------------------------------*/
+    /*-------------------------------- Content Wrapper Starts ---------------------------------*/
+    #content-wrapper #home-page .common-banner-section .left-coffe-container {
+        top: 70%;
+    }
+
+    #content-wrapper #home-page .common-banner-section .left-coffe-container .image-container {
+        width: 400px;
+    }
+
+    #content-wrapper #home-page .common-banner-section .right-coffe-container .image-container {
+        width: 400px;
+    }
+
+    #content-wrapper #home-page .about-section {
+        background-position: right -200px top 0px;
+    }
+
+    #content-wrapper #home-page .about-section .custom-container {
+        padding-top: 160px;
+        padding-bottom: 160px;
+    }
+
+    #content-wrapper #home-page .about-section .custom-container .block-wrapper .block-item:nth-of-type(1) {
+        padding-right: 100px;
+    }
+
+    #content-wrapper #home-page .menu-section .section-content {
+        background-color: #fff;
+        border: 15px solid #b5968b;
+    }
+
+    #content-wrapper #home-page .breaker-section .reviews-container {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    #content-wrapper #home-page .map-section .iframe-container {
+        height: 400px;
+    }
+
+    /*--------------------------------- Content Wrapper Ends ----------------------------------*/
+    /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
+    #footer-wrapper .footer-container .footer-item h5 {
+        margin-bottom: 25px;
+    }
+
+    #footer-wrapper .footer-container .footer-item img {
+        width: 100px;
+    }
+
+    /*---------------------------------- Footer Wrapper Ends ----------------------------------*/
+    /*----------------------------------- Components Starts -----------------------------------*/
+    .common-banner-section .banner-slider .banner-item .text-container .inner .title h5 {
+        font-size: 40px;
+    }
+
+    .common-food-item-container {
+        margin: -35px -50px;
+    }
+
+    .common-food-item-container .food-item {
+        width: 50%;
+        padding: 35px 50px;
+    }
+
+    .common-food-item-container .food-item .inner .image-container {
+        height: 500px;
+    }
+
+    .common-food-item-container .food-item .inner .text-container {
+        margin-top: 20px;
+    }
+
+    .common-food-item-container .food-item .inner .text-container h4 {
+        margin-top: 10px;
+    }
+
+    .common-food-item-container .food-item:nth-of-type(2) {
+        margin-top: -130px;
+    }
+
+    .common-food-item-container .food-item:nth-of-type(3) {
+        width: 45%;
+    }
+
+    .common-food-item-container .food-item:nth-of-type(4) {
+        margin-top: -80px;
+    }
+
+    .common-menu-container {
+        margin: -15px;
+    }
+
+    .common-menu-container .menu-item {
+        padding: 15px;
+        width: 33.33%;
+    }
+
+    .common-menu-container .menu-item h4 {
+        margin-bottom: 35px;
+    }
+
+    .common-menu-container .menu-item ul li {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px dotted #d7d7d7;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .common-menu-container .menu-item ul li p {
+        font-size: 14px;
+        line-height: 1;
+    }
+
+    .common-menu-container .menu-item ul li img {
+        width: 45px;
+        height: 45px;
+        margin-right: 15px;
+    }
+
+    .common-box-container {
+        margin: -14px;
+    }
+
+    .common-box-container .common-box-item {
+        padding: 14px;
+    }
+
+    .common-box-container .common-box-item .inner {
+        background-color: #fff;
+    }
+
+    .common-box-container .common-box-item .inner .image-container {
+        height: 280px;
+    }
+
+    .common-box-container .common-box-item .inner .text-container {
+        padding: 25px;
+    }
+
+    .common-box-container .common-box-item .inner .text-container h4 {
+        margin-bottom: 12px;
+    }
+
+    .common-box-container.type-one {
+        max-width: 750px;
+    }
+
+    .common-back-top a {
+        height: 40px;
+        width: 40px;
+    }
+
+    .common-contact-info-container ul li a {
+        width: 35px;
+        margin-right: 10px;
+    }
+
+    .common-contact-info-container ul li:not(:last-child) {
+        margin-bottom: 15px;
+    }
+
+    .common-form .fields .form-group input,
+    .common-form .fields .form-group select,
+    .common-form .fields .form-group textarea {
+        padding: 10px 20px;
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .common-form .fields .form-group textarea {
+        height: 140px;
+    }
+
+    .common-form .form-action input {
+        min-width: 110px;
+        padding: 5px 25px;
+    }
+
+    /*------------------------------------ Components Ends ------------------------------------*/
+    /*---------------------------------- Slick Slider Starts ----------------------------------*/
+    /*----------------------------------- Slick Slider Ends -----------------------------------*/
+    /*-------------------------------------- Modal Starts -------------------------------------*/
+    /*--------------------------------------- Modal Ends --------------------------------------*/
+    /*------------------------------------ Animation Starts -----------------------------------*/
+    /*------------------------------------- Animation Ends ------------------------------------*/
+}
+
+@media all and (max-width: 1399px) {
+    /*------------------------------------ Site Wide Starts -----------------------------------*/
+    /*------------------------------------- Site Wide Ends ------------------------------------*/
+    /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+    /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+    /*-------------------------------- Content Wrapper Starts ---------------------------------*/
+    /*--------------------------------- Content Wrapper Ends ----------------------------------*/
+    /*----------------------------------- Navigation Starts -----------------------------------*/
+    /*------------------------------------ Navigation Ends ------------------------------------*/
+    /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
+    /*---------------------------------- Footer Wrapper Ends ----------------------------------*/
+    /*----------------------------------- Components Starts -----------------------------------*/
+    /*------------------------------------ Components Ends ------------------------------------*/
+    /*---------------------------------- Slick Slider Starts ----------------------------------*/
+    /*----------------------------------- Slick Slider Ends -----------------------------------*/
+    /*-------------------------------------- Modal Starts -------------------------------------*/
+    /*--------------------------------------- Modal Ends --------------------------------------*/
+    /*------------------------------------ Animation Starts -----------------------------------*/
+    /*------------------------------------- Animation Ends ------------------------------------*/
+}
+
+@media all and (max-width: 1199px) {
+
+    /*------------------------------------ Site Wide Starts -----------------------------------*/
+    body {
+        font-size: 15px;
+    }
+
+    .custom-container {
+        padding: 50px 90px;
+    }
+
+    /*------------------------------------- Site Wide Ends ------------------------------------*/
+    /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+    /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+    /*----------------------------------- Navigation Starts -----------------------------------*/
+    /*------------------------------------ Navigation Ends ------------------------------------*/
+    /*-------------------------------- Content Wrapper Starts ---------------------------------*/
+    #content-wrapper #home-page .common-banner-section .left-coffe-container .image-container {
+        width: 350px;
+    }
+
+    #content-wrapper #home-page .common-banner-section .right-coffe-container .image-container {
+        width: 350px;
+    }
+
+    #content-wrapper #home-page .about-section .custom-container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    #content-wrapper #home-page .map-section .iframe-container {
+        height: 350px;
+    }
+
+    /*--------------------------------- Content Wrapper Ends ----------------------------------*/
+    /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
+    /*---------------------------------- Footer Wrapper Ends ----------------------------------*/
+    /*----------------------------------- Components Starts -----------------------------------*/
+    .common-food-item-container .food-item .inner .image-container {
+        height: 470px;
+    }
+
+    .common-box-container .common-box-item .inner .image-container {
+        height: 230px;
+    }
+
+    /*------------------------------------ Components Ends ------------------------------------*/
+    /*---------------------------------- Slick Slider Starts ----------------------------------*/
+    /*----------------------------------- Slick Slider Ends -----------------------------------*/
+    /*-------------------------------------- Modal Starts -------------------------------------*/
+    /*--------------------------------------- Modal Ends --------------------------------------*/
+    /*------------------------------------ Animation Starts -----------------------------------*/
+    /*------------------------------------- Animation Ends ------------------------------------*/
+}
+
+@media all and (max-width: 991px) {
+
+    /*------------------------------------ Site Wide Starts -----------------------------------*/
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 75px;
+    }
+
+    h3 {
+        font-size: 38px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    .custom-container {
+        padding: 40px 60px;
+    }
+
+    .section-title {
+        margin-bottom: 40px !important;
+    }
+
+    .section-title .content {
+        margin-top: 25px;
+    }
+
+    .section-title.has-content {
+        max-width: 400px;
+    }
+
+    /*------------------------------------- Site Wide Ends ------------------------------------*/
+    /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+    #header-wrapper .logo-nav-wrapper .logo-container a {
+        width: 75px;
+    }
+
+    #header-wrapper .logo-nav-wrapper .nav-container ul li:not(:last-of-type) {
+        margin-right: 40px;
+    }
+
+    /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+    /*----------------------------------- Navigation Starts -----------------------------------*/
+    /*------------------------------------ Navigation Ends ------------------------------------*/
+    /*-------------------------------- Content Wrapper Starts ---------------------------------*/
+    #content-wrapper #home-page .common-banner-section .left-coffe-container .image-container {
+        width: 280px;
+    }
+
+    #content-wrapper #home-page .common-banner-section .right-coffe-container .image-container {
+        width: 280px;
+    }
+
+    #content-wrapper #home-page .breaker-section .reviews-container {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+
+    #content-wrapper #home-page .about-section .custom-container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    #content-wrapper #home-page .map-section .iframe-container {
+        height: 350px;
+    }
+
+    /*--------------------------------- Content Wrapper Ends ----------------------------------*/
+    /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
+    /*---------------------------------- Footer Wrapper Ends ----------------------------------*/
+    /*----------------------------------- Components Starts -----------------------------------*/
+    .common-banner-section .banner-slider .banner-item .text-container .inner .title h5 {
+        font-size: 28px;
+    }
+
+    .common-food-item-container .food-item .inner .image-container {
+        height: 470px;
+    }
+
+    .common-box-container .common-box-item .inner .image-container {
+        height: 200px;
+    }
+
+    .common-box-container.type-one {
+        max-width: 600px;
+    }
+
+    .common-box-container.type-one .common-box-item .inner .image-container {
+        width: 100px;
+        height: 100px;
+    }
+
+    .common-box-container.type-one .common-box-item .inner .text-container h4 {
+        margin: 30px 0px;
+    }
+
+    .common-form .fields .form-group input,
+    .common-form .fields .form-group select,
+    .common-form .fields .form-group textarea {
+        padding: 8px 20px;
+        font-size: 13px;
+    }
+
+    .common-form .fields .form-group textarea {
+        height: 120px;
+    }
+
+    /*------------------------------------ Components Ends ------------------------------------*/
+    /*---------------------------------- Slick Slider Starts ----------------------------------*/
+    /*----------------------------------- Slick Slider Ends -----------------------------------*/
+    /*-------------------------------------- Modal Starts -------------------------------------*/
+    /*--------------------------------------- Modal Ends --------------------------------------*/
+    /*------------------------------------ Animation Starts -----------------------------------*/
+    /*------------------------------------- Animation Ends ------------------------------------*/
+}
+
+@media all and (max-width: 767px) {
+
+    /*------------------------------------ Site Wide Starts -----------------------------------*/
+    body.non-transparent-header #header-wrapper .logo-nav-wrapper .nav-container ul li a {
+        color: #fff;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h3 {
+        font-size: 34px;
+    }
+
+    h4 {
+        font-size: 21px;
+    }
+
+    .custom-container {
+        padding: 30px 25px;
+    }
+
+    .custom-container.small-width-container {
+        max-width: 90%;
+    }
+
+    .section-title {
+        margin-bottom: 30px !important;
+    }
+
+    .section-title .content {
+        margin-top: 15px;
+    }
+
+    .section-title.has-content {
+        max-width: 100%;
+    }
+
+    /*------------------------------------- Site Wide Ends ------------------------------------*/
+    /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+    #header-wrapper .custom-container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #header-wrapper .logo-nav-wrapper .logo-container a {
+        width: 75px;
+    }
+
+    #header-wrapper .logo-nav-wrapper .nav-container {
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        background-color: #4f8ac8;
+        left: 0;
+        height: 100vh;
+        opacity: 0;
+        width: 100%;
+        pointer-events: none;
+        transition: all 0.3s ease;
+        overflow-y: scroll;
+    }
+
+    #header-wrapper .logo-nav-wrapper .nav-container ul {
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    #header-wrapper .logo-nav-wrapper .nav-container ul li {
+        display: block;
+        width: 100%;
+        margin-right: 0px;
+        padding: 7px 0px;
+    }
+
+    #header-wrapper .logo-nav-wrapper .nav-container ul li a {
+        text-transform: uppercase;
+        font-size: 18px;
+        color: #fff;
+        padding: 0px;
+    }
+
+    #header-wrapper .logo-nav-wrapper .common-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 52px;
+        height: 52px;
+        padding: 8px;
+        border-radius: 50%;
+        background-color: #005ca9;
+        opacity: 1;
+        pointer-events: initial;
+        transition: all .4s ease;
+        z-index: 2;
+    }
+
+    #header-wrapper .logo-nav-wrapper .common-toggle .inner {
+        width: 83%;
+    }
+
+    #header-wrapper .logo-nav-wrapper .common-toggle .inner span {
+        display: block;
+        height: 1px;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    #header-wrapper .logo-nav-wrapper .common-toggle .inner span:not(:last-child) {
+        margin-bottom: 7px;
+    }
+
+    #header-wrapper.nav-open .logo-nav-wrapper .nav-container {
+        opacity: 1;
+        pointer-events: inherit;
+    }
+
+    #header-wrapper.nav-open.nav-scroll .logo-nav-wrapper .nav-container ul li a {
+        color: #fff;
+    }
+
+    /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+    /*----------------------------------- Navigation Starts -----------------------------------*/
+    /*------------------------------------ Navigation Ends ------------------------------------*/
+    /*-------------------------------- Content Wrapper Starts ---------------------------------*/
+    #content-wrapper #home-page .common-banner-section .left-coffe-container .image-container {
+        width: 170px;
+    }
+
+    #content-wrapper #home-page .common-banner-section .right-coffe-container .image-container {
+        width: 170px;
+    }
+
+    #content-wrapper #home-page .breaker-section .reviews-container {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+
+    #content-wrapper #home-page .menu-section .section-content {
+        border: 10px solid #b5968b;
+    }
+
+    #content-wrapper #home-page .about-section .custom-container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #content-wrapper #home-page .about-section .custom-container .block-wrapper .block-item {
+        width: 100% !important;
+    }
+
+    #content-wrapper #home-page .about-section .custom-container .block-wrapper .block-item .image-container {
+        width: 90%;
+        margin: auto;
+    }
+
+    #content-wrapper #home-page .about-section .custom-container .block-wrapper .block-item:nth-of-type(1) {
+        padding-right: 0px;
+    }
+
+    #content-wrapper #home-page .map-section .iframe-container {
+        height: 280px;
+    }
+
+    #content-wrapper #home-page .contact-section .block-wrapper .block-item {
+        width: 100%;
+    }
+
+    #content-wrapper #home-page .contact-section .block-wrapper .block-item:nth-of-type(1) {
+        margin-bottom: 40px;
+    }
+
+    /*--------------------------------- Content Wrapper Ends ----------------------------------*/
+    /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
+    /*---------------------------------- Footer Wrapper Ends ----------------------------------*/
+    #footer-wrapper .footer-container .footer-item {
+        width: 100%;
+        border-right: none;
+    }
+
+    #footer-wrapper .footer-container .footer-item ul li:not(:last-child) {
+        margin-bottom: 8px;
+    }
+
+    #footer-wrapper .footer-container .footer-item h5 {
+        margin-bottom: 20px;
+    }
+
+    #footer-wrapper .footer-container .footer-item img {
+        width: 120px;
+        filter: brightness(0) invert(1);
+    }
+
+    #footer-wrapper .footer-container .footer-item:nth-of-type(3) {
+        width: 100%;
+    }
+
+    #footer-wrapper .footer-container .footer-item:nth-of-type(3) ul {
+        -webkit-column-count: initial;
+        -moz-column-count: initial;
+        column-count: initial;
+        -webkit-column-gap: initial;
+        -moz-column-gap: initial;
+        column-gap: initial;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    #footer-wrapper .footer-container .footer-item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    /*----------------------------------- Components Starts -----------------------------------*/
+    .common-banner-section .banner-slider .banner-item .text-container .inner .title h5 {
+        font-size: 21px;
+        margin-bottom: 25px;
+    }
+
+    .common-food-item-container {
+        margin: -0px -0px;
+    }
+
+    .common-food-item-container .food-item {
+        width: 100% !important;
+        padding: 0px 0px;
+    }
+
+    .common-food-item-container .food-item .inner .image-container {
+        height: 350px;
+    }
+
+    .common-food-item-container .food-item:nth-of-type(2) {
+        margin-top: -0px;
+    }
+
+    .common-food-item-container .food-item:nth-of-type(3) {
+        width: 100% !important;
+    }
+
+    .common-food-item-container .food-item:nth-of-type(4) {
+        margin-top: -0px;
+    }
+
+    .common-food-item-container .food-item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .common-box-container .common-box-item .inner .image-container {
+        height: 200px;
+    }
+
+    .common-box-container.type-one {
+        max-width: 600px;
+    }
+
+    .common-box-container.type-one .common-box-item .inner .image-container {
+        width: 100px;
+        height: 100px;
+    }
+
+    .common-box-container.type-one .common-box-item .inner .text-container h4 {
+        margin: 30px 0px;
+    }
+
+    .common-menu-container {
+        margin: -0px;
+    }
+
+    .common-menu-container .menu-item {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .common-menu-container .menu-item h4 {
+        margin-bottom: 25px;
+    }
+
+    .common-menu-container .menu-item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .common-menu-container.type-one .menu-item {
+        width: 100%;
+    }
+
+    .category-nav {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .category-nav ul li a {
+        font-size: 26px;
+    }
+
+    .category-nav ul li a img {
+        width: 30px;
+        margin-right: 16px;
+    }
+
+    .category-nav ul li:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .common-form .fields .form-group input,
+    .common-form .fields .form-group select,
+    .common-form .fields .form-group textarea {
+        padding: 8px 20px;
+        font-size: 13px;
+    }
+
+    .common-form .fields .form-group textarea {
+        height: 120px;
+    }
+
+    .common-form .form-action {
+        margin-top: 15px;
+    }
+
+    .common-icon-container {
+        margin: -10px;
+    }
+
+    .common-icon-container .icon-item {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .common-back-top {
+        bottom: 20px;
+        right: 20px;
+    }
+
+    /*------------------------------------ Components Ends ------------------------------------*/
+    /*---------------------------------- Slick Slider Starts ----------------------------------*/
+    .slick-slider .slick-prev {
+        left: 6px;
+    }
+
+    .slick-slider .slick-next {
+        right: 6px;
+    }
+
+    /*----------------------------------- Slick Slider Ends -----------------------------------*/
+    /*-------------------------------------- Modal Starts -------------------------------------*/
+    /*--------------------------------------- Modal Ends --------------------------------------*/
+    /*------------------------------------ Animation Starts -----------------------------------*/
+    /*------------------------------------- Animation Ends ------------------------------------*/
+}
+
+/*# sourceMappingURL=responsive.css.map */

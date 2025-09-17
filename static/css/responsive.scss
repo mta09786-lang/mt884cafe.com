@@ -1,0 +1,1101 @@
+
+@import "components/fonts_and_colors";
+
+/*------------------------------------ Site Wide Starts -----------------------------------*/
+/*------------------------------------- Site Wide Ends ------------------------------------*/
+
+/*--------------------------------- Header Wrapper Starts ---------------------------------*/
+/*--------------------------------- Header Wrapper Starts ---------------------------------*/
+
+/*----------------------------------- Navigation Starts -----------------------------------*/
+/*------------------------------------ Navigation Ends ------------------------------------*/
+
+/*-------------------------------- Content Wrapper Starts ---------------------------------*/
+/*--------------------------------- Content Wrapper Ends ----------------------------------*/
+
+/*--------------------------------- Footer Wrapper Starts ---------------------------------*/
+/*---------------------------------- Footer Wrapper Ends ----------------------------------*/
+
+/*----------------------------------- Components Starts -----------------------------------*/
+/*------------------------------------ Components Ends ------------------------------------*/
+
+/*---------------------------------- Slick Slider Starts ----------------------------------*/
+/*----------------------------------- Slick Slider Ends -----------------------------------*/
+
+/*-------------------------------------- Modal Starts -------------------------------------*/
+/*--------------------------------------- Modal Ends --------------------------------------*/
+
+/*------------------------------------ Animation Starts -----------------------------------*/
+/*------------------------------------- Animation Ends ------------------------------------*/
+
+
+@media all and (max-width: 1800px) {
+  /*------------------------------------ Site Wide Starts -----------------------------------*/
+  body{
+    font-size: 16px;
+  }
+
+  h1{
+    font-size: 100px;
+  }
+  h2 {
+    font-size: 60px;
+  }
+  h3{
+    font-size: 40px;
+  }
+  h4{
+    font-size: 22px;
+  }
+  h5{
+    font-size: 20px;
+  }
+  h6{
+    font-size: 14px;
+  }
+
+  .custom-container{
+    padding: 60px 140px;
+    &.small-width-container{
+      max-width: 900px;
+    }
+  }
+
+  .section-title{
+    margin-bottom: 50px !important;
+    h4{
+      margin-bottom: 12px;
+    }
+    .content{
+      margin-top: 35px;
+    }
+  
+    .action-container{
+      margin-top: 50px;
+    }
+  
+    &.has-content{
+      max-width: 450px;
+    }
+  }
+  /*------------------------------------- Site Wide Ends ------------------------------------*/
+
+  /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+  #header-wrapper{
+    .custom-container{
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  
+    .logo-nav-wrapper{
+      .logo-container{
+        a{
+          width: 90px;
+        }
+      }
+  
+      .nav-container{
+        ul{
+          li{
+            &:not(:last-of-type){
+              margin-right: 45px;
+            }
+  
+          }
+        }
+      }
+    }
+  }
+  /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+
+  /*----------------------------------- Navigation Starts -----------------------------------*/
+  /*------------------------------------ Navigation Ends ------------------------------------*/
+
+  /*-------------------------------- Content Wrapper Starts ---------------------------------*/
+  #content-wrapper{
+    #home-page{
+      .common-banner-section{
+        .left-coffe-container{
+          top: 70%;
+          .image-container{
+            width: 400px;
+          }
+        }
+  
+        .right-coffe-container{
+          .image-container{
+            width: 400px;
+          }
+        }
+      }
+  
+      .about-section{
+        background-position: right -200px top 0px;
+        .custom-container{
+          padding-top: 160px;
+          padding-bottom: 160px;
+          .block-wrapper{
+            .block-item{
+           
+             &:nth-of-type(1){
+               padding-right: 100px;
+             }
+            }
+          }
+        }
+      }
+  
+      .menu-section{
+        // background-image: url('../img/background/background_3.jpg');
+        .section-content{
+          background-color: #fff;
+
+          border: 15px solid $color-option1;
+        }
+      }
+  
+      .breaker-section{
+        .reviews-container{
+          padding-top: 70px;
+          padding-bottom: 70px;
+        }
+      }
+  
+      .map-section{
+        .iframe-container{
+          height: 400px;
+        }
+      }
+    }
+  }
+  /*--------------------------------- Content Wrapper Ends ----------------------------------*/
+
+  /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
+  #footer-wrapper{
+    .footer-container{
+      .footer-item{
+        h5{
+          margin-bottom: 25px;
+        }
+  
+        img{
+          width: 100px;
+        }
+      }
+    }
+  }
+  /*---------------------------------- Footer Wrapper Ends ----------------------------------*/
+
+  /*----------------------------------- Components Starts -----------------------------------*/
+  .common-banner-section{
+    .banner-slider{
+      .banner-item{
+        .text-container{
+          .inner {
+            .title{
+              h5{
+                font-size: 40px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .common-food-item-container{
+    margin: -35px -50px;
+    .food-item{
+      width: 50%;
+      padding: 35px 50px;
+      .inner{
+        .image-container{
+          height: 500px;
+        }
+  
+        .text-container{
+          margin-top: 20px;
+          h4{
+            margin-top: 10px;
+          }
+        }
+      }
+  
+      &:nth-of-type(2){
+        margin-top: -130px;
+      }
+  
+      &:nth-of-type(3){
+        width: 45%;
+      }
+  
+      &:nth-of-type(4){
+        margin-top: -80px;
+      }
+    }
+  }
+
+  .common-menu-container{
+    margin: -15px;
+    .menu-item{
+      padding: 15px;
+      width: 33.33%;
+      h4{
+        margin-bottom: 35px;
+      }
+  
+      ul{
+        li{
+          display: flex;
+          justify-content: space-between;
+          border-bottom: 2px dotted #d7d7d7;
+          padding-bottom: 10px;
+          margin-bottom: 10px;
+          display: flex;
+          align-items: center;
+          p{
+            font-size: 14px;
+            line-height: 1;
+          }
+          img{
+            width: 45px;
+            height: 45px;  
+            margin-right: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .common-box-container{
+    margin: -14px;
+    .common-box-item{
+      padding: 14px;
+      .inner{
+        background-color: #fff;
+        .image-container{
+          height: 280px;
+        }
+  
+        .text-container{
+          padding: 25px;
+          h4{
+            margin-bottom: 12px;
+          }
+        }
+      }
+    }
+  
+    &.type-one{
+        max-width: 750px;
+    }
+  }
+
+  .common-back-top{
+    a {
+      height: 40px;
+      width: 40px;
+    }
+  }
+
+  .common-contact-info-container{
+    ul{
+      li{
+        a{
+          width: 35px;
+          margin-right: 10px;
+        }
+  
+        &:not(:last-child){
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+
+  .common-form{
+    .fields{
+      .form-group{
+        input,select,textarea{
+          padding: 10px 20px;
+          font-size: 14px;
+          line-height: 23px;
+        }
+        textarea{
+          height: 140px;
+        }
+      }
+    }
+  
+    .form-action{
+      input{
+        min-width: 110px;
+        padding: 5px 25px;
+      }
+    }
+  }
+  /*------------------------------------ Components Ends ------------------------------------*/
+
+  /*---------------------------------- Slick Slider Starts ----------------------------------*/
+  /*----------------------------------- Slick Slider Ends -----------------------------------*/
+
+  /*-------------------------------------- Modal Starts -------------------------------------*/
+  /*--------------------------------------- Modal Ends --------------------------------------*/
+
+  /*------------------------------------ Animation Starts -----------------------------------*/
+  /*------------------------------------- Animation Ends ------------------------------------*/
+}
+
+@media all and (max-width: 1399px) {
+  /*------------------------------------ Site Wide Starts -----------------------------------*/
+  /*------------------------------------- Site Wide Ends ------------------------------------*/
+
+  /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+  #header-wrapper{
+
+  }
+  /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+
+  /*-------------------------------- Content Wrapper Starts ---------------------------------*/
+  #content-wrapper{
+
+  }
+  /*--------------------------------- Content Wrapper Ends ----------------------------------*/
+
+  /*----------------------------------- Navigation Starts -----------------------------------*/
+  /*------------------------------------ Navigation Ends ------------------------------------*/
+
+  /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
+  #footer-wrapper{
+
+  }
+  /*---------------------------------- Footer Wrapper Ends ----------------------------------*/
+
+  /*----------------------------------- Components Starts -----------------------------------*/
+  /*------------------------------------ Components Ends ------------------------------------*/
+
+  /*---------------------------------- Slick Slider Starts ----------------------------------*/
+  /*----------------------------------- Slick Slider Ends -----------------------------------*/
+
+  /*-------------------------------------- Modal Starts -------------------------------------*/
+  /*--------------------------------------- Modal Ends --------------------------------------*/
+
+  /*------------------------------------ Animation Starts -----------------------------------*/
+  /*------------------------------------- Animation Ends ------------------------------------*/
+}
+
+@media all and (max-width: 1199px) {
+  /*------------------------------------ Site Wide Starts -----------------------------------*/
+  body{
+    font-size: 15px;
+  }
+
+  .custom-container{
+    padding: 50px 90px;
+  }
+
+  /*------------------------------------- Site Wide Ends ------------------------------------*/
+
+  /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+  
+  /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+
+  /*----------------------------------- Navigation Starts -----------------------------------*/
+  /*------------------------------------ Navigation Ends ------------------------------------*/
+
+  /*-------------------------------- Content Wrapper Starts ---------------------------------*/
+  #content-wrapper{
+    #home-page{
+      .common-banner-section{
+        .left-coffe-container{
+          .image-container{
+            width: 350px;
+          }
+        }
+  
+        .right-coffe-container{
+          .image-container{
+            width: 350px;
+          }
+        }
+      }
+  
+      .about-section{
+        .custom-container{
+          padding-top: 100px;
+          padding-bottom: 100px;
+        }
+      }
+      .map-section{
+        .iframe-container{
+          height: 350px;
+        }
+      }
+    }
+  }
+  /*--------------------------------- Content Wrapper Ends ----------------------------------*/
+
+  /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
+
+  /*---------------------------------- Footer Wrapper Ends ----------------------------------*/
+
+  /*----------------------------------- Components Starts -----------------------------------*/
+  
+
+  .common-food-item-container{
+    .food-item{
+      .inner{
+        .image-container{
+          height: 470px;
+        }
+      }
+    }
+  }
+
+  .common-box-container{
+    .common-box-item{
+      .inner{
+        .image-container{
+          height: 230px;
+        }
+      }
+    }
+  }
+
+  /*------------------------------------ Components Ends ------------------------------------*/
+
+  /*---------------------------------- Slick Slider Starts ----------------------------------*/
+  /*----------------------------------- Slick Slider Ends -----------------------------------*/
+
+  /*-------------------------------------- Modal Starts -------------------------------------*/
+  /*--------------------------------------- Modal Ends --------------------------------------*/
+
+  /*------------------------------------ Animation Starts -----------------------------------*/
+  /*------------------------------------- Animation Ends ------------------------------------*/
+}
+
+@media all and (max-width: 991px) {
+  /*------------------------------------ Site Wide Starts -----------------------------------*/
+  body{
+    font-size: 14px;
+  }
+
+  h1{
+    font-size: 75px;
+  }
+
+  h3{
+    font-size: 38px;
+  }
+
+  h4{
+    font-size: 18px;
+  }
+
+  .custom-container{
+    padding: 40px 60px;
+  }
+
+  .section-title{
+    margin-bottom: 40px !important;
+    .content{
+      margin-top: 25px;
+    }
+  
+    &.has-content{
+      max-width: 400px;
+    }
+  }
+
+  /*------------------------------------- Site Wide Ends ------------------------------------*/
+
+  /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+  #header-wrapper{
+  
+    .logo-nav-wrapper{
+      .logo-container{
+        a{
+          width: 75px;
+        }
+      }
+  
+      .nav-container{
+        ul{
+          li{
+            &:not(:last-of-type){
+              margin-right: 40px;
+            }
+  
+          }
+        }
+      }
+    }
+  }
+  /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+
+  /*----------------------------------- Navigation Starts -----------------------------------*/
+  /*------------------------------------ Navigation Ends ------------------------------------*/
+
+  /*-------------------------------- Content Wrapper Starts ---------------------------------*/
+  #content-wrapper{
+    #home-page{
+      .common-banner-section{
+        .common-box-item{
+
+        }
+        .left-coffe-container{
+          .image-container{
+            width: 280px;
+          }
+        }
+  
+        .right-coffe-container{
+          .image-container{
+            width:280px;
+          }
+        }
+      }
+      .breaker-section{
+        .reviews-container{
+          padding-top: 55px;
+          padding-bottom: 55px;
+        }
+      }
+  
+      .about-section{
+        .custom-container{
+          padding-top: 100px;
+          padding-bottom: 100px;
+        }
+      }
+      .map-section{
+        .iframe-container{
+          height: 350px;
+        }
+      }
+    }
+  }
+  /*--------------------------------- Content Wrapper Ends ----------------------------------*/
+
+  /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
+
+  /*---------------------------------- Footer Wrapper Ends ----------------------------------*/
+
+  /*----------------------------------- Components Starts -----------------------------------*/
+   .common-banner-section{
+    .banner-slider{
+      .banner-item{
+        .text-container{
+          .inner {
+            .title{
+              h5{
+                font-size: 28px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .common-food-item-container{
+    .food-item{
+      .inner{
+        .image-container{
+          height: 470px;
+        }
+      }
+    }
+  }
+
+  .common-box-container{
+    .common-box-item{
+      .inner{
+        .image-container{
+          height: 200px;
+        }
+      }
+    }
+    &.type-one{
+    
+      max-width: 600px;
+      .common-box-item{
+        .inner{
+          .image-container{
+           width: 100px;
+           height: 100px;
+          }
+
+          .text-container{
+            h4{
+              margin: 30px 0px;
+            }
+          }
+        }
+      }
+  }
+  }
+
+  .common-form{
+    .fields{
+      .form-group{
+        input,select,textarea{
+          padding: 8px 20px;
+          font-size: 13px;
+        }
+        textarea{
+          height: 120px;
+        }
+      }
+    }
+  }
+
+  /*------------------------------------ Components Ends ------------------------------------*/
+
+  /*---------------------------------- Slick Slider Starts ----------------------------------*/
+  /*----------------------------------- Slick Slider Ends -----------------------------------*/
+
+  /*-------------------------------------- Modal Starts -------------------------------------*/
+  /*--------------------------------------- Modal Ends --------------------------------------*/
+
+  /*------------------------------------ Animation Starts -----------------------------------*/
+  /*------------------------------------- Animation Ends ------------------------------------*/
+}
+
+@media all and (max-width: 767px) {
+  /*------------------------------------ Site Wide Starts -----------------------------------*/
+  
+  body{
+    &.non-transparent-header{
+      #header-wrapper{
+        .logo-nav-wrapper{
+          .nav-container{
+            ul{
+              li{
+                a{
+                  color: #fff;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+  h1{
+    font-size: 50px;
+  }
+
+  h3{
+    font-size: 34px;
+  }
+
+  h4{
+    font-size: 21px;
+  }
+  
+  .custom-container{
+    padding: 30px 25px;
+    &.small-width-container{
+      max-width: 90%;
+    }
+  }
+
+  .section-title{
+    margin-bottom: 30px !important;
+    .content{
+      margin-top: 15px;
+    }
+  
+    &.has-content{
+      max-width: 100%;
+    }
+  }
+
+  /*------------------------------------- Site Wide Ends ------------------------------------*/
+
+  /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+  #header-wrapper{
+  .custom-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+    .logo-nav-wrapper{
+      .logo-container{
+        a{
+          width: 75px;
+        }
+      }
+  
+      .nav-container{
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        background-color: #4f8ac8;
+        left: 0;
+        height: 100vh;
+        opacity: 0;
+        width: 100%;
+        pointer-events: none;
+        transition: all 0.3s ease;
+        overflow-y: scroll;
+        ul {
+          flex-wrap: wrap;
+          width: 100%;
+          text-align: center;
+          padding-top: 100px;
+         li {
+            display: block;
+            width: 100%;
+            margin-right: 0px;
+            padding: 7px 0px;
+            a {
+              text-transform: uppercase;
+              font-size: 18px;
+              color: #fff;
+              padding: 0px;
+            }
+          }
+        }
+      }
+
+      .common-toggle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 52px;
+        height: 52px;
+        padding: 8px;
+        border-radius: 50%;
+        background-color: #005ca9;
+        opacity: 1;
+        pointer-events: initial;
+        transition: all .4s ease;
+        z-index: 2;
+        .inner{
+          width: 83%;
+          span{
+            display: block;
+            height: 1px;
+            width: 100%;
+            background-color: #fff;
+            &:not(:last-child){
+              margin-bottom: 7px;
+            }
+          }
+        }
+      }
+    }
+
+    &.nav-open{
+      .logo-nav-wrapper{
+        .nav-container{
+          opacity: 1;
+          pointer-events: inherit;
+        }
+  
+      }
+
+      &.nav-scroll{
+        .logo-nav-wrapper{
+          .nav-container{
+            ul{
+              li{
+                a{
+                  color: #fff;
+                }
+              }
+            }
+          }
+      
+        }
+      }
+    }
+  }
+  /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+
+  /*----------------------------------- Navigation Starts -----------------------------------*/
+  /*------------------------------------ Navigation Ends ------------------------------------*/
+
+  /*-------------------------------- Content Wrapper Starts ---------------------------------*/
+  #content-wrapper{
+    #home-page{
+      .common-banner-section{
+        .left-coffe-container{
+          .image-container{
+            width: 170px;
+          }
+        }
+  
+        .right-coffe-container{
+          .image-container{
+            width: 170px;
+          }
+        }
+      }
+      .breaker-section{
+        .reviews-container{
+          padding-top: 55px;
+          padding-bottom: 55px;
+        }
+      }
+      .menu-section{
+        .section-content{
+          border: 10px solid $color-option1;
+        }
+      }
+      .about-section{
+        .custom-container{
+          padding-top: 40px;
+          padding-bottom: 40px;
+          .block-wrapper{
+            .block-item{
+              width: 100% !important;
+
+              .image-container{
+                width: 90%;
+                margin: auto;
+              }
+
+              &:nth-of-type(1){
+                padding-right: 0px;
+              }
+            }
+          }
+        }
+      }
+      .map-section{
+        .iframe-container{
+          height: 280px;
+        }
+      }
+      .contact-section{
+        .block-wrapper{
+          .block-item{
+            width: 100%;
+           &:nth-of-type(1){
+             margin-bottom: 40px;
+           }
+          }
+        }
+      }
+    }
+  }
+  /*--------------------------------- Content Wrapper Ends ----------------------------------*/
+
+  /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
+
+  /*---------------------------------- Footer Wrapper Ends ----------------------------------*/
+  #footer-wrapper{
+    .footer-container{
+      .footer-item{
+        width: 100%;
+        border-right: none;
+
+        ul{
+          li{
+            &:not(:last-child){
+              margin-bottom: 8px;
+            }
+          }
+        }
+        h5{
+          margin-bottom: 20px;
+        }
+        img{
+          width: 120px;
+          filter: brightness(0) invert(1);
+        }
+        &:nth-of-type(3){
+          width: 100%;
+          ul {
+            -webkit-column-count: initial;
+            -moz-column-count: initial;
+            column-count: initial;
+            -webkit-column-gap: initial;
+            -moz-column-gap: initial;
+            column-gap: initial;
+            padding-left: 0px;
+            text-align: center;
+          }
+        }
+
+  &:not(:last-child){
+    margin-bottom: 30px;
+  }
+      }
+    }
+  }
+  /*----------------------------------- Components Starts -----------------------------------*/
+   .common-banner-section{
+    .banner-slider{
+      .banner-item{
+        .text-container{
+          .inner {
+            .title{
+              h5{
+                font-size: 21px;
+                margin-bottom: 25px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .common-food-item-container{
+    margin: -0px -0px;
+    .food-item{
+      width: 100% !important;
+      padding: 0px 0px;
+      .inner{
+        .image-container{
+          height: 350px;
+        }
+      }
+
+      &:nth-of-type(2){
+        margin-top: -0px;
+      }
+  
+      &:nth-of-type(3){
+        width: 100% !important;
+      }
+  
+      &:nth-of-type(4){
+        margin-top: -0px;
+      }
+
+      &:not(:last-child){
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .common-box-container{
+    .common-box-item{
+      .inner{
+        .image-container{
+          height: 200px;
+        }
+      }
+    }
+    &.type-one{
+    
+      max-width: 600px;
+      .common-box-item{
+        .inner{
+          .image-container{
+           width: 100px;
+           height: 100px;
+          }
+
+          .text-container{
+            h4{
+              margin: 30px 0px;
+            }
+          }
+        }
+      }
+  }
+  }
+
+  .common-menu-container{
+    margin: -0px;
+    .menu-item{
+      padding: 0px;
+      width: 100%;
+      h4{
+        margin-bottom: 25px;
+      }
+
+      &:not(:last-child){
+        margin-bottom: 30px;
+      }
+    }
+
+
+    &.type-one{
+      .menu-item{
+        width: 100%;
+      }
+    }
+  }
+
+  .category-nav{
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    ul {
+      li {
+        a {
+          font-size: 26px;
+          img{
+            width: 30px;
+            margin-right: 16px;
+          }
+        }
+
+        &:not(:last-child) {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+
+  .common-form{
+    .fields{
+      .form-group{
+        input,select,textarea{
+          padding: 8px 20px;
+          font-size: 13px;
+        }
+        textarea{
+          height: 120px;
+        }
+      }
+    }
+
+    .form-action{
+      margin-top: 15px;
+    }
+  }
+
+  .common-icon-container{
+    margin: -10px;
+    .icon-item{
+      width: 50%;
+      padding: 10px;
+    }
+  }
+
+  .common-back-top{
+    bottom: 20px;
+    right: 20px;
+  }
+  /*------------------------------------ Components Ends ------------------------------------*/
+
+  /*---------------------------------- Slick Slider Starts ----------------------------------*/
+
+  .slick-slider{
+    .slick-prev{
+      left: 6px;
+    }
+
+    .slick-next{
+      right: 6px;
+    }
+  }
+  /*----------------------------------- Slick Slider Ends -----------------------------------*/
+
+  /*-------------------------------------- Modal Starts -------------------------------------*/
+  /*--------------------------------------- Modal Ends --------------------------------------*/
+
+  /*------------------------------------ Animation Starts -----------------------------------*/
+  /*------------------------------------- Animation Ends ------------------------------------*/
+}
