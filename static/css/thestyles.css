@@ -215,7 +215,7 @@ body.non-transparent-header #header-wrapper.nav-scroll .logo-nav-wrapper .nav-co
 }
 
 #content-wrapper #home-page .about-section {
-    background-image: url("../img/background/sack.png");
+    background-image: url("../img/sack.png");
     background-size: 50%;
     background-position: right -280px top 0px;
     background-repeat: no-repeat;
